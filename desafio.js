@@ -68,9 +68,9 @@ const jugadorUno = {
   }; 
 
   const resultado = {
-    jugador1: contadorPuntosJug1,
-    jugador2: contadorPuntosJug2,
-    ganador: contadorPuntosJug1 > contadorPuntosJug2 ? "Ganador Jugador1" : "Ganador Jugador2"
+    Marce: contadorPuntosJug1,
+    Flor: contadorPuntosJug2,
+    ganador: contadorPuntosJug1 > contadorPuntosJug2 ? "Marce" : "Flor"
   };
   
   console.log(resultado);
